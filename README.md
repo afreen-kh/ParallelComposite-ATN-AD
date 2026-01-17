@@ -45,7 +45,7 @@ The proposed framework is based on:
 - Composite decision fusion to integrate outputs from multiple predictive components
 - Robust evaluation using standard clinical diagnostic metrics
 
-A high-level representation of the framework is shown below.
+Representation of the framework is shown below.
 
 <p align="center">
   <img src="figures/Hybrid-clinical model architecture.png" alt="Hybrid-clinical model" width="700">
