@@ -48,8 +48,14 @@ The proposed framework is based on:
 A high-level representation of the framework is shown below.
 
 <p align="center">
-  <img src="figures/architecture.png" width="800"/>
+  <img src="figures/Hybrid-clinical model architecture.png" alt="Hybrid-clinical model" width="700">
 </p>
+
+<p align="center">
+  <em>Figure 1: Hybrid-clinical model architecture.</em><br>
+  <em>(Source: Khan et al., <i>Frontiers in Neuroscience</i>, 2024)</em>
+</p>
+
 
 ---
 
