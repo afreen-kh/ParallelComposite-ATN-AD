@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated research article."
+title: "Development of a Robust Parallel and Multi-Composite Machine Learning Model for Improved Diagnosis of Alzheimer’s Disease: Correlation with Dementia-Associated Drug Usage and AT(N) Protein Biomarkers"
+type: article
+authors:
+  - family-names: Khan
+    given-names: Afreen
+  - family-names: Zubair
+    given-names: Swaleha
+  - family-names: Shuaib
+    given-names: Mohammed
+  - family-names: Sheneamer
+    given-names: Abdullah
+  - family-names: Alam
+    given-names: Shadab
+  - family-names: Assiri
+    given-names: Basem
+journal: "Frontiers in Neuroscience"
+year: 2024
+doi: "10.3389/fnins.2024.1391465"
+url: "https://www.frontiersin.org/articles/10.3389/fnins.2024.1391465/full"
+license: Apache-2.0
