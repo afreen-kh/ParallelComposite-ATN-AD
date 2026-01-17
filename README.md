@@ -53,15 +53,29 @@ A high-level representation of the framework is shown below.
 
 ---
 
-## Dataset Description
+## Dataset Scope and Experimental Setup
 
-The study utilizes clinical and biomarker data derived from the Alzheimer’s Disease Neuroimaging Initiative (ADNI), including:
+The experimental evaluation in this study was conducted using clinical and biomarker data obtained from the Alzheimer’s Disease Neuroimaging Initiative (ADNI). The dataset includes subjects spanning cognitively normal (CN), mild cognitive impairment (MCI), and Alzheimer’s disease (AD) diagnostic categories.
 
-- Demographic and cognitive assessment variables
-- AT(N) protein biomarkers (Aβ, Tau, pTau)
-- Dementia-associated drug usage information
+The feature space comprises:
+- Demographic and clinical assessment variables
+- Cognitive test scores
+- AT(N) protein biomarkers, including amyloid-beta (Aβ), total tau (Tau), and phosphorylated tau (pTau)
+- Dementia-associated drug usage information reflecting real-world clinical treatment patterns
 
-All data usage complies with ADNI data access and ethical guidelines. No raw data are distributed through this repository.
+To accommodate the heterogeneous nature of these features, the proposed framework employs parallel learning streams, each optimized for a specific feature group. Outputs from individual learning components are integrated using a multi-composite decision strategy to enhance diagnostic robustness.
+
+The study design follows a supervised learning paradigm with appropriate train–test separation and standard clinical evaluation metrics. All experiments adhere to ADNI data usage policies, and no raw or subject-level data are redistributed through this repository.
+
+---
+
+## Results Summary
+
+The proposed parallel and multi-composite machine learning framework demonstrated improved diagnostic performance compared to single-model baselines across Alzheimer’s disease classification tasks. By leveraging complementary information from clinical variables, AT(N) biomarkers, and dementia-associated drug usage data, the model achieved enhanced robustness and consistency in predictive outcomes.
+
+Experimental results indicate that parallel feature learning and composite decision aggregation contribute to improved discrimination between disease stages, particularly in challenging diagnostic scenarios involving mild cognitive impairment. The integration of biomarker-driven and clinically observed treatment patterns further strengthens the model’s diagnostic relevance in real-world settings.
+
+These findings support the effectiveness of the proposed architecture for multimodal Alzheimer’s disease diagnosis and highlight its potential applicability to other neurodegenerative disease modeling tasks involving heterogeneous clinical data sources.
 
 ---
 
