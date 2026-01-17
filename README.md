@@ -1,7 +1,7 @@
 # Development of a Robust Parallel and Multi-Composite Machine Learning Model for Improved Diagnosis of Alzheimer’s Disease
 
 **Afreen Khan**, S. Zubair, M. Shuaib, A. Sheneamer, S. Alam, and B. Assiri
-*Frontiers in Neuroscience, 2024*
+*Frontiers in Neuroscience*, 2024
 
 🔗 **Paper (PDF):** https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2024.1391465/full 
 
