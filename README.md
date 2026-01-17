@@ -71,11 +71,16 @@ The study design follows a supervised learning paradigm with appropriate train�
 
 ## Results Summary
 
-The proposed parallel and multi-composite machine learning framework demonstrated improved diagnostic performance compared to single-model baselines across Alzheimer’s disease classification tasks. By leveraging complementary information from clinical variables, AT(N) biomarkers, and dementia-associated drug usage data, the model achieved enhanced robustness and consistency in predictive outcomes.
+The proposed parallel and multi-composite machine learning framework demonstrated strong diagnostic performance across multi-class Alzheimer’s disease classification tasks. The study addressed the challenge of early AD diagnosis by integrating heterogeneous data sources, including neuropsychological assessments, dementia-associated drug usage, and AT(N) cerebrospinal fluid protein biomarkers.
 
-Experimental results indicate that parallel feature learning and composite decision aggregation contribute to improved discrimination between disease stages, particularly in challenging diagnostic scenarios involving mild cognitive impairment. The integration of biomarker-driven and clinically observed treatment patterns further strengthens the model’s diagnostic relevance in real-world settings.
+A multinomial classification setting was considered, comprising five diagnostic categories: cognitively normal, significant subjective memory concern, early mild cognitive impairment, late mild cognitive impairment, and Alzheimer’s disease. The hybrid-clinical design employed multiple machine learning models operating in parallel, with final predictions determined through majority voting within a meta-model framework.
 
-These findings support the effectiveness of the proposed architecture for multimodal Alzheimer’s disease diagnosis and highlight its potential applicability to other neurodegenerative disease modeling tasks involving heterogeneous clinical data sources.
+Experimental evaluation revealed that incorporating protein biomarkers alongside baseline clinical features significantly improved diagnostic accuracy. The highest performance was achieved when baseline features were combined with protein biomarkers, yielding a maximum classification accuracy of **97.60%**. The meta-model also exhibited consistent performance when trained using individual protein biomarkers, as well as when all AT(N) biomarkers were jointly included.
+
+Analysis of dementia-associated drug usage further indicated that the model functioned effectively both when all drug categories were incorporated and when individual drug variables were evaluated independently. These findings suggest that medication-related information provides complementary diagnostic value when integrated with clinical and biomarker data.
+
+Overall, the results confirm that parallel feature learning and composite decision aggregation enhance robustness in multi-class Alzheimer’s disease diagnosis. The proposed framework offers a flexible and extensible design capable of accommodating diverse clinical and biological inputs, supporting its potential applicability in early-stage diagnostic modeling and future neurodegenerative disease research.
+
 
 ---
 
